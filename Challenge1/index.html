@@ -4,7 +4,6 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="style.css">
-		<script language="javascript" type="text/javascript" src="script.js"></script>
 		<title>Shopping Cart</title>
 	</head>
 	
@@ -24,13 +23,19 @@
 		
 		<main>
 			<article class="flex">
+			
+			
 			<div class="item shadow" id="item1">
 				<img src="img/1_001.jpg">
-				<h3>Brand</h3>
+				<h2 id="test">Brand</h2>
 				<p>Model/Typ</p>
 				<h3>Price: $ 199.00</h3>
-				<button type="button" onclick="addToCard(1)">Add to card</button>
+				<button type="button" onclick="addToCart(1)">Add to card</button>
 			</div>
+			
+			
+			
+			
 			
 			<div class="item shadow" id="item2">
                 <img src="img/1_002.jpg">
@@ -110,7 +115,17 @@
 			<a>Contact</a>
 				
 			<img src="img/logo.jpg" alt="BrillenLogo">
-			<p>&copy;Wolfgang & Jasmin -Code Factory 2019</p>
+			<p>&copy;Wolfgang & Jasmine - Code Factory 2019</p>
 		</footer>
+		
+		<script>
+			function addToCart(num) {
+						var brands = document.getElementById("item1").getElementsByTagName("h2").innerHTML;
+				
+			}
+		</script>
+		
 	</body>
+	
+	
 </html>
