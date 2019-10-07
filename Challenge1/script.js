@@ -3,15 +3,16 @@ var itm = getElementById()
 console.log(itm);
 
 
-function addToCard(ele) {
-	var x = ele.id;
+function addToCard(num) {
 	
+	switch(num) {
+		case(1): 
+			
+			
+			
+			
+			
+	}
 	
-	/*
-	
-	var img = 
-	var brand =
-	var model =
-	var price =
 }
 */
