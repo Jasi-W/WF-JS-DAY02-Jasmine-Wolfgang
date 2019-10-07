@@ -120,7 +120,8 @@
 		
 		<script>
 			function addToCart(num) {
-						var brands = document.getElementById("item1").getElementsByTagName("h2").innerHTML;
+						var brands = document.getElementById("item1").childNodes[1].textContent;
+						console.log(brands);
 				
 			}
 		</script>
