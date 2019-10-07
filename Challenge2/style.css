@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>sloth whack</title>
 
-	<style>
-html {
+
+body {
   box-sizing: border-box;
   font-size: 10px;
   background: #B4C4AE;
@@ -93,50 +88,3 @@ h2, .score,.btn {
   top: 0;
 }
 
-
-		.
-	</style>
-</head>
-<body>
-	<h2>sloth-smash </h2>
-	
-	<div class="game">
-
-			
-
-		<div class="cloud ">
-			<div class="sloth"></div>
-		</div>
-		<div class="cloud">
-			<div class="sloth"></div>
-		</div>
-		<div class="cloud ">
-			<div class="sloth"></div>
-		</div>
-		<div class="cloud ">
-			<div class="sloth"></div>
-		</div>
-		<div class="cloud ">
-			<div class="sloth"></div>
-		</div>
-		<div class="cloud ">
-			<div class="sloth"></div>
-		</div>
-		<div class="cloud ">
-			<div class="sloth"></div>
-		</div>
-		<div class="cloud ">
-			<div class="sloth"></div>
-		</div>
-		<div class="info">
-		<span class="score">0</span>
-		
-		</div>
-	</div>
-
-	
-	
-
-	
-</body>
-</html>
