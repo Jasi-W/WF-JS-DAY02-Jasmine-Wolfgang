@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Titel der Website</title>
+		<meta name="author" content="Jasmine">
+		<meta name="describtion" content="kurze Beschreibung!">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<script language="javascript" type="text/javascript" src="script.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<h1>WEATHER TODAY</h1>
+		</header>
+		
+		<nav>
+			<a class="active">Today</a>
+			<a>Hourly</a>
+			<a>5 Days</a>
+			<a>10 Days</a>
+			<a>Weekend</a>
+			<a>Monthly</a>
+		</nav>
+		
+		<main>
+			<div class="flex shadow">
+				<div class="item">
+					<h2>Vienna</h2>
+					<p id="current_date"></p>
+					<p><span id="current_celsius"></span> °<sup>c</sup></p>
+					<p>The weather today is <span id="weather"><span></p>
+					
+					<p></p>
+					<button type="button" onclick="refresh()">Refresh</button>
+				</div>
+			</div>
+		</main>
+		
+		<footer>
+		
+		</footer>
+		
+		<script>
+			document.getElementById("current_date").innerText = dateToday;
+			document.getElementById("current_celsius").innerText = celsius;
+			document.getElementById("weather").innerText = temp;
+		</script>
+	</body>
+</html>
